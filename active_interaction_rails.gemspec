@@ -6,8 +6,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Ngari Ndung'u", "Tom Nyongesa"]
   spec.email         = ["ngarindungu@gmail.com", "tomnyngesa5@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = "Shorter Summary"
+  spec.description   = "Longer description"
   spec.homepage      = "https://github.com/NgariNdungu/active_interaction_rails"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
