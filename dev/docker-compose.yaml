@@ -6,6 +6,7 @@ services:
       context: ../
       dockerfile: dev/Dockerfile
     image: ngarindungu/rails-dev
+    entrypoint: ["/bin/bash", "dev/entrypoint.sh"]
     command: "bundle exec rake"
     working_dir: /home/dev/active_interaction_rails
     volumes:
