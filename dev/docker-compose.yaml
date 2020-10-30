@@ -1,0 +1,13 @@
+---
+version: "3.7"
+services:
+  air:
+    build:
+      context: ../
+      dockerfile: dev/Dockerfile
+    image: ngarindungu/rails-dev
+    command: "bundle exec rake"
+    working_dir: /home/dev/active_interaction_rails
+    volumes:
+      - ../:/home/dev/active_interaction_rails
+      - ./.bundle:/usr/local/bundle
