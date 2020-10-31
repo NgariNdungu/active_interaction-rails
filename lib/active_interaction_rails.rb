@@ -1,4 +1,6 @@
-require "active_interaction_rails/version"
+# frozen_string_literal: true
+
+require 'active_interaction_rails/version'
 
 module ActiveInteractionRails
   class Error < StandardError; end
