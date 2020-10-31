@@ -4,17 +4,14 @@ Gem::Specification.new do |spec|
   spec.name          = "active_interaction_rails"
   spec.version       = ActiveInteractionRails::VERSION
   spec.authors       = ["Ngari Ndung'u", "Tom Nyongesa"]
-  spec.email         = ["ngarindungu@gmail.com", "tomnyngesa5@gmail.com"]
+  spec.email         = ["ngari.ndungu@gmail.com", "tomnyngesa5@gmail.com"]
 
-  spec.summary       = "Shorter Summary"
-  spec.description   = "Longer description"
+  spec.summary       = "Adds a rails generator for active_interaction."
   spec.homepage      = "https://github.com/NgariNdungu/active_interaction_rails"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
-
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/NgariNdungu/active_interaction_rails"
+  spec.metadata["source_code_uri"] = spec.homepage
   # spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
 
   # Specify which files should be added to the gem when it is released.
