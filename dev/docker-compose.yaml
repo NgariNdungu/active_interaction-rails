@@ -11,4 +11,7 @@ services:
     working_dir: /home/dev/active_interaction_rails
     volumes:
       - ../:/home/dev/active_interaction_rails
-      - ./.bundle:/usr/local/bundle
+      - bundle:/usr/local/bundle
+
+volumes:
+  bundle:
