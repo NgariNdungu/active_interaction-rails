@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    active_interaction_rails (0.1.0)
+    active_interaction-rails (0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -69,7 +69,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  active_interaction_rails!
+  active_interaction-rails!
   guard-minitest
   guard-rubocop
   minitest (~> 5.0)

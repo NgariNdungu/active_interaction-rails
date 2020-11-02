@@ -8,9 +8,9 @@ services:
     image: ngarindungu/rails-dev
     entrypoint: ["/bin/bash", "dev/entrypoint.sh"]
     command: "bundle exec rake"
-    working_dir: /home/dev/active_interaction_rails
+    working_dir: /home/dev/active_interaction-rails
     volumes:
-      - ../:/home/dev/active_interaction_rails
+      - ../:/home/dev/active_interaction-rails
       - bundle:/usr/local/bundle
 
 volumes:

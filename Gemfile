@@ -2,7 +2,7 @@
 
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in active_interaction_rails.gemspec
+# Specify your gem's dependencies in active_interaction-rails.gemspec
 gemspec
 
 gem 'rake', '~> 12.0'
