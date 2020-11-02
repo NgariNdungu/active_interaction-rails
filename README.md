@@ -9,7 +9,7 @@ This gem adds a rails generator for `active_interaction`.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'active_interaction_rails'
+gem 'active_interaction-rails'
 ```
 
 And then execute:
@@ -18,7 +18,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install active_interaction_rails
+    $ gem install active_interaction-rails
 
 ## Usage
 
@@ -45,5 +45,5 @@ docker-compose run air bash
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/NgariNdungu/active_interaction_rails.
+Bug reports and pull requests are welcome on GitHub at https://github.com/NgariNdungu/active_interaction-rails.
 
