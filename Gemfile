@@ -6,4 +6,8 @@ source 'https://rubygems.org'
 gemspec
 
 gem 'rake', '~> 12.0'
-gem 'minitest', '~> 5.0'
+group :development, :test do
+  gem 'minitest', '~> 5.0'
+  gem 'guard-minitest'
+  gem 'guard-rubocop'
+end

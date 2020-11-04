@@ -26,8 +26,6 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   # Development dependencies
-  spec.add_development_dependency 'guard-rubocop'
-  spec.add_development_dependency 'guard-minitest'
 
   # Runtime dependencies
 end
