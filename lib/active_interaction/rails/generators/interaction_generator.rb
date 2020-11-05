@@ -5,7 +5,14 @@ module ActiveInteraction
     module Generators
       class InteractionGenerator < ::Rails::Generators::NamedBase
         def create_interaction
-          p 'Should do something'
+          create_file "app/interactions/#{name}_interaction.rb",
+                      %(
+            # frozen_string_literal: true
+
+            class #{name.capitalize}Interaction < ActiveInteraction::Base
+            "blah"
+        end
+            )
         end
       end
     end
